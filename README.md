@@ -29,7 +29,7 @@ The application uses three main models:
 ![](output/tennis_output.gif)
 
 
-### How to train
+### How to Run
 
 Clone this repository to your local machine.
 ```bash
