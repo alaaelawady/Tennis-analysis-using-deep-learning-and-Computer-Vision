@@ -17,17 +17,23 @@
 # Models
 The application uses three main models:
 
-- CourtDetectorNet: Detects the tennis court and key points.
-- BallDetector: Tracks the ball's position frame by frame.
-- BounceDetector: Identifies bounce events of the ball.
+- CourtDetectorNet: neural network for detection of 14 main key points of tennis court .
+- BallDetector: Tracks the ball's position frame by frame by Tracknet which is a deep learning network for tracking the tennis ball from broadcast videos in which the ball images are small, blurry, and sometimes even invisible. TrackNet takes multiple consecutive frames as input, model will learn not only object tracking but also trajectory to enhance its capability of positioning and recognition.TrackNet generates gaussian heat map centered on ball to indicate position of the ball.
+  
+- BounceDetector: Used to predict ball bounces during the game based on ball trajectory detected by Tracknet neural network .
   
 ## Before running the application, ensure you have the following prerequisites installed
 Clone this repository to your local machine.
-- git clone 
+```bash
 
+ git clone 
+```
 Install all required dependencies.
-- pip install -r requirements.txt 
+```bash
 
+ pip install -r requirements.txt 
+```
 Run the script with the following command, specifying the input and output video paths:
-
-- python app.py --path_input_video "path/to/your/input/video.mp4" --path_output_video "path/to/your/output/video.mp4"
+```bash
+ python app.py --path_input_video "path/to/your/input/video.mp4" --path_output_video "path/to/your/output/video.mp4"
+```
