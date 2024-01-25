@@ -14,7 +14,16 @@
 - Scene Processing: Analyze different scenes within the video for in-depth match analysis.
 - Output Video Generation: Creates an output video with all the visual analytics overlaid on the original footage.
 
+# Models
+The application uses three main models:
+
+- CourtDetectorNet: Detects the tennis court and key points.
+- BallDetector: Tracks the ball's position frame by frame.
+- BounceDetector: Identifies bounce events of the ball.
+  
 ## Before running the application, ensure you have the following prerequisites installed
+Clone this repository to your local machine.
+- git clone 
 
 Install all required dependencies.
 - pip install -r requirements.txt 
