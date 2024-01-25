@@ -26,7 +26,7 @@ The application uses three main models:
   
 
 ## Inference on video
-[Link to the video](output/tennis_output.mp4)
+![](output/tennis_output.gif)
 
 
 ## Before running the application, ensure you have the following prerequisites installed
