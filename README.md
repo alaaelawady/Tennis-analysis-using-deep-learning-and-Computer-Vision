@@ -28,7 +28,7 @@ The application uses three main models:
 Clone this repository to your local machine.
 ```bash
 
- git clone 
+ git clone https://github.com/alaaelawady/Tennis-analysis-using-deep-learning-and-Computer-Vision
 ```
 Install all required dependencies.
 ```bash
