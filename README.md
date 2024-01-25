@@ -24,6 +24,11 @@ The application uses three main models:
   
 - BounceDetector: Used to predict ball bounces during the game based on ball trajectory detected by Tracknet neural network.
   
+
+## Inference on video
+[Link to the video](output/tennis_output.mp4)
+
+
 ## Before running the application, ensure you have the following prerequisites installed
 Clone this repository to your local machine.
 ```bash
