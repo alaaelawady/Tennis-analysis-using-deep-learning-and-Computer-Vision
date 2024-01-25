@@ -5,7 +5,7 @@
 - This developed system is a sophisticated tool for analyzing tennis matches from video footage. It integrates advanced computer vision techniques to detect the court, track the ball's position, and identify bounces. The system visualizes this information on the video frames, providing a detailed view of the match, including which side of the court the ball hits and tracking the ball's trajectory. This could be a valuable tool for coaches, players, and enthusiasts to analyze gameplay and improve strategies.
 
 
-# Features
+## Features
 - Ball Tracking: Tracks the ball's position throughout the match, providing a visual representation of its trajectory.
   
 - Court Detection: Identifies the tennis court within the video and extracts relevant 14 key points for analysis. analyze these key points to divide the court into two sides and then it is possible to discover which bounce occurred on which side of the court. 
@@ -16,7 +16,7 @@
     
 - Output Video Generation: Creates an output video with all the visual analytics overlaid on the original footage.
 
-# Models
+### Models
 The application uses three main models:
 
 - CourtDetectorNet: neural network for detection of 14 main key points of the tennis court.
@@ -25,12 +25,12 @@ The application uses three main models:
 - BounceDetector: Used to predict ball bounces during the game based on ball trajectory detected by Tracknet neural network.
   
 
-## Inference on video
+### Inference on video
 ![](output/tennis_output.gif)
-![](output/tennis_output.mp4)
 
 
-## Before running the application, ensure you have the following prerequisites installed
+### How to train
+
 Clone this repository to your local machine.
 ```bash
 
@@ -45,3 +45,7 @@ Run the script with the following command, specifying the input and output video
 ```bash
  python app.py --path_input_video "path/to/your/input/video.mp4" --path_output_video "path/to/your/output/video.mp4"
 ```
+### reference
+
+For more details on the Tracknet used, refer to the [TrackNet Paper](https://arxiv.org/abs/1234.56789).
+
