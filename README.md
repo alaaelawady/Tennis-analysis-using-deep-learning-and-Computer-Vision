@@ -10,7 +10,7 @@
 - Court Detection: Identifies the tennis court within the video and extracts relevant key points for analysis.
 - Ball Tracking: Tracks the ball's position throughout the match, providing a visual representation of its trajectory.
 - Bounce Detection: Detects when( at which frame ) and where the ball bounces on the court.
-- Ground Hit Countnter Visualization: Displays the number of ground hits on each side of the court.
+- Ground Hit Countnter Visualization: Displays the count of the number of ground hits for the ball on each side,
 - Scene Processing: Analyze different scenes within the video for in-depth match analysis.
 - Output Video Generation: Creates an output video with all the visual analytics overlaid on the original footage.
 
