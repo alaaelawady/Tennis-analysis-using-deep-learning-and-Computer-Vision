@@ -8,7 +8,9 @@ from processing.utils import scene_detect
 
 
 video_processing = videoanalysis.VideoAnalysis()
+
 # Paths to your models
+
 bounce_model_path = 'models/ctb_regr_bounce.cbm'
 ball_track_model_path = 'models/model_best.pt'
 court_model_path = 'models/model_tennis_court_det.pt'
